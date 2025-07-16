@@ -14,7 +14,8 @@ add_subdirectory(libkirk)
 include_directories(libkirk)
 
 # Add executable
-add_executable(mhtools src/cpp/main.cpp)
+add_executable(mhtools src/cpp/main.cpp src/cpp/kirk_cypher.cpp)
+include_directories(src/cpp/include)
 
 # Link libraries
 target_link_libraries(mhtools ${CRYPTO_PP_LIBRARIES} kirk)

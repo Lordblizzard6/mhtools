@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/mhtools.dir/src/cpp/main.cpp.o -o mhtools  -lcryptopp libkirk/libkirk.a
+/usr/bin/c++ CMakeFiles/mhtools.dir/src/cpp/main.cpp.o CMakeFiles/mhtools.dir/src/cpp/kirk_cypher.cpp.o -o mhtools  -lcryptopp libkirk/libkirk.a

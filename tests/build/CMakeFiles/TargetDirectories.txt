@@ -1,0 +1,6 @@
+/app/tests/build/CMakeFiles/mhtools_tests.dir
+/app/tests/build/CMakeFiles/edit_cache.dir
+/app/tests/build/CMakeFiles/rebuild_cache.dir
+/app/tests/build/libkirk/CMakeFiles/kirk.dir
+/app/tests/build/libkirk/CMakeFiles/edit_cache.dir
+/app/tests/build/libkirk/CMakeFiles/rebuild_cache.dir

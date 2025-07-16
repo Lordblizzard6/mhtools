@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mhtools.dir/src/cpp/kirk_cypher.cpp.o"
+  "CMakeFiles/mhtools.dir/src/cpp/kirk_cypher.cpp.o.d"
   "CMakeFiles/mhtools.dir/src/cpp/main.cpp.o"
   "CMakeFiles/mhtools.dir/src/cpp/main.cpp.o.d"
   "mhtools"

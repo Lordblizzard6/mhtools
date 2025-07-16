@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mhtools_tests.dir/test_kirk.cpp.o CMakeFiles/mhtools_tests.dir/app/src/cpp/kirk_cypher.cpp.o -o mhtools_tests  -lcryptopp libkirk/libkirk.a

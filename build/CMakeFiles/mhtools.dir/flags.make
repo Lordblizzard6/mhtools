@@ -4,6 +4,6 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES =
 
-CXX_INCLUDES = -I/app/libkirk
+CXX_INCLUDES = -I/app/libkirk -I/app/src/cpp/include
 
 CXX_FLAGS = -std=gnu++11

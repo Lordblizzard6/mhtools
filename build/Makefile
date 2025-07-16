@@ -142,6 +142,30 @@ kirk/fast:
 	$(MAKE) $(MAKESILENT) -f libkirk/CMakeFiles/kirk.dir/build.make libkirk/CMakeFiles/kirk.dir/build
 .PHONY : kirk/fast
 
+src/cpp/kirk_cypher.o: src/cpp/kirk_cypher.cpp.o
+.PHONY : src/cpp/kirk_cypher.o
+
+# target to build an object file
+src/cpp/kirk_cypher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mhtools.dir/build.make CMakeFiles/mhtools.dir/src/cpp/kirk_cypher.cpp.o
+.PHONY : src/cpp/kirk_cypher.cpp.o
+
+src/cpp/kirk_cypher.i: src/cpp/kirk_cypher.cpp.i
+.PHONY : src/cpp/kirk_cypher.i
+
+# target to preprocess a source file
+src/cpp/kirk_cypher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mhtools.dir/build.make CMakeFiles/mhtools.dir/src/cpp/kirk_cypher.cpp.i
+.PHONY : src/cpp/kirk_cypher.cpp.i
+
+src/cpp/kirk_cypher.s: src/cpp/kirk_cypher.cpp.s
+.PHONY : src/cpp/kirk_cypher.s
+
+# target to generate assembly for a file
+src/cpp/kirk_cypher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mhtools.dir/build.make CMakeFiles/mhtools.dir/src/cpp/kirk_cypher.cpp.s
+.PHONY : src/cpp/kirk_cypher.cpp.s
+
 src/cpp/main.o: src/cpp/main.cpp.o
 .PHONY : src/cpp/main.o
 
@@ -176,6 +200,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... kirk"
 	@echo "... mhtools"
+	@echo "... src/cpp/kirk_cypher.o"
+	@echo "... src/cpp/kirk_cypher.i"
+	@echo "... src/cpp/kirk_cypher.s"
 	@echo "... src/cpp/main.o"
 	@echo "... src/cpp/main.i"
 	@echo "... src/cpp/main.s"

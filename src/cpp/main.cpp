@@ -1,3 +1,4 @@
+#include "include/kirk_cypher.h"
 #include <iostream>
 #include <string>
 #include <vector>
@@ -103,9 +104,9 @@ int main(int argc, char* argv[]) {
     } else if (option == "--decrypt-save") {
         // TODO: Implement decrypt-save
     } else if (option == "--encrypt-kirk") {
-        // TODO: Implement encrypt-kirk
+        KirkCypher().encrypt(argv[2]);
     } else if (option == "--decrypt-kirk") {
-        // TODO: Implement decrypt-kirk
+        KirkCypher().decrypt(argv[2]);
     } else {
         std::cerr << "Unknown parameter: " << option << std::endl;
         return 1;
