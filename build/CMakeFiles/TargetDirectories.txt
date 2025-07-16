@@ -1,0 +1,6 @@
+/app/build/CMakeFiles/mhtools.dir
+/app/build/CMakeFiles/edit_cache.dir
+/app/build/CMakeFiles/rebuild_cache.dir
+/app/build/libkirk/CMakeFiles/kirk.dir
+/app/build/libkirk/CMakeFiles/edit_cache.dir
+/app/build/libkirk/CMakeFiles/rebuild_cache.dir
